@@ -3,7 +3,7 @@
 ## 概述
 该存储库包含 Jupyter 笔记本形式的课程，重点是了解 WRF-Hydro 的基本功能。
 
-### 要求
+## 需求
 运行这些课程的最简单和推荐的方法是通过 [wrfhydro/training](https://hub.docker.com/r/wrfhydro/training/) Docker 容器，它预先安装了所有软件依赖项和数据。
 
 * Docker >= v.17.12
@@ -30,7 +30,7 @@
 `docker pull wrfhydro/training:v5.2.0-rc1`
 
 **步骤 3：启动训练容器**
-在终端会话中输入以下命令以启动训练 Docker 容器。
+在终端会话中输入以下命令以启动训练 Docker 容器：
 
 `docker run --name wrf-hydro-training -p 8888:8888 -it wrfhydro/training:v5.2.0-rc1`
 
